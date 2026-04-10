@@ -1,7 +1,13 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 4.2"
 
-group :jekyll_plugins do
-    gem "jekyll-feed", "~> 0.12"
-    gem "minima", "~> 2.5"
-end
+# GitHub Pages environment
+gem "github-pages", group: :jekyll_plugins
+
+# Required for Ruby 4.0+ compatibility
+gem "webrick"
+gem "csv"
+gem "bigdecimal"
+gem "base64"
+gem "ostruct"
+gem "logger"
+gem "rexml"
