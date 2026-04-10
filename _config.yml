@@ -10,8 +10,8 @@ plugins:
 
 exclude: 
   - vendor
-  - lecture-entity-extractor
-  - lecture-entity-extractor.skill
+  - talk-entity-extractor
+  - talk-entity-extractor.skill
 
 # include:
 #   - _meta
