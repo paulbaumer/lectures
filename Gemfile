@@ -1,12 +1,7 @@
 source "https://rubygems.org"
 gem "jekyll", "~> 4.4.1"
-gem "jekyll-feed", "~> 0.12"
-gem "minima", "~> 2.5"
-gem "csv"
-gem "webrick"
-gem "base64"
-gem "bigdecimal"
-gem "ostruct"
-gem "logger"
-gem "rexml"
-# No explicit liquid gem to let jekyll decide
+
+group :jekyll_plugins do
+    gem "jekyll-feed", "~> 0.12"
+    gem "minima", "~> 2.5"
+end
