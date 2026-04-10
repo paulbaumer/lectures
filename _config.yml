@@ -7,3 +7,7 @@ url: "https://paulbaumer.github.io" # The base hostname & protocol for your site
 theme: minima
 plugins:
   - jekyll-feed
+
+exclude: 
+  - lecture-entity-extractor
+  - lecture-entity-extractor.skill
