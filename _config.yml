@@ -9,5 +9,9 @@ plugins:
   - jekyll-feed
 
 exclude: 
+  - vendor
   - lecture-entity-extractor
   - lecture-entity-extractor.skill
+
+# include:
+#   - _meta
