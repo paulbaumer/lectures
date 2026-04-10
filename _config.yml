@@ -1,6 +1,6 @@
 title: Лекції
 description: Колекція текстів лекцій.
-baseurl: "/lectures" # The subpath of your site, e.g. /blog
+baseurl: "/talks" # The subpath of your site, e.g. /blog
 url: "https://paulbaumer.github.io" # The base hostname & protocol for your site
 
 # Build settings

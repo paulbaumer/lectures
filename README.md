@@ -1,4 +1,4 @@
-# lectures
+# talks
 
 A collection of lecture transcripts and metadata.
 
