@@ -27,18 +27,26 @@ Create or update Markdown files in the `_meta/` directory using this structure:
 
 File names should all be snake case.
 
-Each file should contain at least a Level 1 header with the entity's name: `# {Name}`. The language of the header should be of what the language of the talk being analyzed. When an english name is available, it should be added in parenthesis.
-
-Append the entity file with a short snippet from the talk where the entity was mentioned and give a backlink to the paragraph where the entity was mentioned. The link should include the talk title and paragraph number. The text of the snippet should be formatted as a quote.
-
 Each directory and sub-directory under the `_meta` folder should contain an index file with the list of all child folders linking to the corresponding child index file.
 
-### 3. Transcript Linking
+### 3. Entity File Structure
+
+Each file should contain at least a Level 1 header with the entity's name: `# {Name}`. The language of the header should be of what the language of the talk being analyzed. When an english name is available, it should be added in parenthesis.
+
+Append a short snippet from the talk where the entity was mentioned to the entity file with. Give a backlink to the paragraph where the entity was mentioned. The link should include the talk title and paragraph number. The text of the snippet should be formatted as a quote.
+
+For all entities, try to find a wikipedia page reference and, if found, include it right under the page header.
+
+For places, instead of the wikipedia link, embed a link to google maps.
+
+For works of music, see if there's a Spotify link instead of wikipedia.
+
+### 4. Transcript Linking
 Update the talk transcript file to include links to the relevant `_meta` files.
 - Use Jekyll syntax: `[Entity Name]({{ site.baseurl }}/path/to/file.md)`
 - Ensure links are not duplicated and handle Cyrillic/Latin characters accurately.
 
-### 4. Index Update
+### 5. Index Update
 Ensure the `index.md` file has an "Дослідник" section that points to the main directories:
 - **People**: `[Люди]({{ site.baseurl }}/_meta/people/)`
 - **Works**: `[Твори]({{ site.baseurl }}/_meta/works/)`
