@@ -1,7 +1,12 @@
 ---
-layout: post
+layout: page
 title: "Гра і творчість – Частина 2. Олександр Філоненко."
 ---
+
+Три лекції в Полтавському шаховому центрі:
+- [Гра і виховання – Частина 1]({{ site.baseurl }}/olexandr-filonenko/hra-vyxovannya-chastyna-1.html)
+- Гра і творчість – Частина 2
+- [Гра і дружба – Частина 3]({{ site.baseurl }}/olexandr-filonenko/hra-i-druzhba–3-chastyna.html)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-mk7ncVyTJM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
